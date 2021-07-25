@@ -1,0 +1,25 @@
+.listmitra {
+  margin: 15px -1rem;
+}
+
+.row1 {
+  display: flex;
+  width: 370px;
+}
+
+.spaceLogo {
+  margin: 0px 11px 0px 0px;
+  padding-left: 22px;
+  padding-bottom: 15px;
+}
+
+.row2 {
+  display: flex;
+  width: 370px;
+}
+
+.row3 {
+  margin: 0px 0.5rem 0px 0px;
+  padding-left: 12px;
+  padding-bottom: 15px;
+}

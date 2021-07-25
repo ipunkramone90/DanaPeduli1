@@ -1,0 +1,8 @@
+.container-list {
+  position: relative;
+  text-decoration: none;
+  max-width: 380px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 0px 16px 80px;
+}

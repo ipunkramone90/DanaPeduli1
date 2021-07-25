@@ -1,0 +1,244 @@
+.container-card2 {
+  position: relative;
+  text-decoration: none;
+  max-width: 380px;
+  width: 100%;
+  margin: 0px auto;
+  top: 30px;
+  padding: 0px 16px 80px;
+}
+
+.card-dtl {
+  margin: 0px auto;
+  padding-top: 5px;
+  width: 320px;
+  background-color: white;
+  height: 505px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title-dtl {
+  background-color: white;
+  position: absolute;
+  margin: 15px 15px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #201a1c;
+}
+
+.idr-dtl {
+  background-color: white;
+  position: absolute;
+  margin: 40px 15px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #309a8d;
+}
+
+.txtNominal-dtl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  position: absolute;
+  width: 289px;
+  height: 54px;
+  margin: 85px 15px 0px;
+  background-color: white;
+  border: 1px solid #c6c6d4;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.nom1-dtl {
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  width: 95px;
+  height: 47px;
+  margin: 150px 15px 0px;
+  border: 1px solid #8a8aa0;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.nom2-dtl {
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  width: 88px;
+  height: 47px;
+  margin: 150px 116px 0px;
+  border: 1px solid #8a8aa0;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.nom3-dtl {
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  width: 93px;
+  height: 47px;
+  margin: 150px 210px 0px;
+  border: 1px solid #8a8aa0;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.metodP-dtl {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  color: #8a8aa0;
+  position: absolute;
+  width: 289px;
+  height: 54px;
+  margin: 208px 15px 0px;
+  border: 1px solid #c6c6d4;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.txtName-dtl {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  position: absolute;
+  width: 289px;
+  height: 54px;
+  margin: 273px 15px 0px;
+  border: 1px solid #c6c6d4;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.txtEmail-dtl {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  position: absolute;
+  width: 289px;
+  height: 54px;
+  margin: 338px 15px 0px;
+  border: 1px solid #c6c6d4;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.identity-dtl {
+  background-color: white;
+  position: absolute;
+  width: 206px;
+  height: 16px;
+  margin: 403px 15px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  color: #8a8aa0;
+}
+
+.switch-dtl {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+  margin: 404px 279px 0px;
+}
+
+.switch-dtl input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider-dtl {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ecf2fa;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider-dtl:before {
+  position: absolute;
+  content: '';
+  height: 15px;
+  width: 15px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #8a8aa0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider-dtl {
+  background-color: #ecf2fa;
+}
+
+input:focus + .slider-dtl {
+  box-shadow: 0 0 1px #ecf2fa;
+}
+
+input:checked + .slider-dtl:before {
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+/* Rounded sliders */
+.slider-dtl.round {
+  border-radius: 10px;
+}
+
+.slider-dtl.round:before {
+  border-radius: 50%;
+}
+
+.btnDonate-dtl {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  position: absolute;
+  width: 215px;
+  height: 46px;
+  margin: 10px 15px 0px;
+  color: white;
+  background: #e1004d;
+  border-radius: 12px;
+}
+
+.btnShare-dtl {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  position: absolute;
+  width: 66px;
+  height: 46px;
+  margin: 10px 239px 0px;
+  border: 1px solid #e1004d;
+  box-sizing: border-box;
+  border-radius: 12px;
+}

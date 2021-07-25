@@ -1,0 +1,10 @@
+.container-dana {
+  position: absolute;
+  width: 343px;
+  height: 106px;
+  left: 16px;
+  top: 1245px;
+  border: 1px solid #c6c6d4;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
