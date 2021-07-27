@@ -51,8 +51,13 @@ function FormDetailDonasi() {
         />
 
         <select id="mPayment" name="mPayment" className="metodP-dtl">
-          <option value="Ovo">OVO</option>
-          <option value="GoPay">GoPay</option>
+        <option value="Dana">DANA</option>
+        <option value="GoPay">GO-PAY</option>
+        <option value="LinkAja">LinkAja</option>
+        <option value="Ovo">OVO</option>
+        <option value="ShopeePay">ShopeePay</option>
+        <option value="BCA">BCA</option>
+        <option value="Mandiri">Mandiri</option>
         </select>
 
         <input
