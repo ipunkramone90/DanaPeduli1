@@ -1,9 +1,8 @@
 .container-list {
   position: relative;
   text-decoration: none;
+  max-width: 380px;
   width: 100%;
-  max-width: 410px;
   margin: 20px auto;
-  padding: 0px 16px 180px 16px;
-  background-color: #f4f9ff;
+  padding: 0px 16px 80px;
 }

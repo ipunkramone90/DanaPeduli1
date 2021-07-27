@@ -12,7 +12,7 @@ function DetailProgramScreen() {
              <div className="container-detail">
         <img  src={p1} alt="p1" className="image-program-detail"/>
         <div className ="titlePdetail">
-        <p>Selamatkan Anak Terlantar di Desa Rawageni</p>
+        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
         <div className="titleP-detail-detail">
                 <p className="txtValue-detail">Target Donasi Tersalurkan</p>
                 <p className="txtTot-detail">Rp 98.631.944</p>       
@@ -40,16 +40,9 @@ function DetailProgramScreen() {
         <div className="sekat3">
         <ListDonatur/>
         </div>
+       
         <div className="sekat4">
         <h4>Update Terbaru</h4>
-        <div className="list-update">
-        <p className="list-title">Penarikan Pembelian Sembako</p>
-        <p className="list-date">17 Januari 2021</p>
-        <p className="list-title">Penarikan Biaya Operasional</p>
-        <p className="list-date">10 Januari 2021</p>
-        <p className="list-title">Kami membelanjakan beberapa dana</p>
-        <p className="list-date">9 Januari 2021</p>
-        </div>
         </div>
       </div>
     )

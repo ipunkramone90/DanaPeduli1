@@ -8,7 +8,7 @@ function ListProgram() {
         <div className="container-listprogram">
         <img  src={p1} alt="p1" className="image-listprogram"/>
         <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
+        <p>Selamatkan Anak Terlantar di Desa Rawageni</p>
         <div className="titleP-list">
                 <p className="txtValue-list">Target Donasi Tersalurkan</p>
                 <p className="txtTot-list">Rp 98.631.944</p>       
@@ -18,7 +18,7 @@ function ListProgram() {
         <div className="container-listprogram">
         <img  src={p1} alt="p1" className="image-listprogram"/>
         <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
+        <p>Selamatkan Anak Terlantar di Desa Rawageni</p>
         <div className="titleP-list">
                 <p className="txtValue-list">Target Donasi Tersalurkan</p>
                 <p className="txtTot-list">Rp 98.631.944</p>
@@ -29,7 +29,7 @@ function ListProgram() {
         <div className="container-listprogram">
         <img  src={p1} alt="p1" className="image-listprogram"/>
         <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
+        <p>Selamatkan Anak Terlantar di Desa Rawageni</p>
         <div className="titleP-list">
                 <p className="txtValue-list">Target Donasi Tersalurkan</p>
                 <p className="txtTot-list">Rp 98.631.944</p>
@@ -40,7 +40,7 @@ function ListProgram() {
         <div className="container-listprogram">
         <img  src={p1} alt="p1" className="image-listprogram"/>
         <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
+        <p>Selamatkan Anak Terlantar di Desa Rawageni</p>
         <div className="titleP-list">
                 <p className="txtValue-list">Target Donasi Tersalurkan</p>
                 <p className="txtTot-list">Rp 98.631.944</p>
@@ -51,7 +51,7 @@ function ListProgram() {
         <div className="container-listprogram">
         <img  src={p1} alt="p1" className="image-listprogram"/>
         <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
+        <p>Selamatkan Anak Terlantar di Desa Rawageni</p>
         <div className="titleP-list">
                 <p className="txtValue-list">Target Donasi Tersalurkan</p>
                 <p className="txtTot-list">Rp 98.631.944</p>
@@ -62,91 +62,14 @@ function ListProgram() {
         <div className="container-listprogram">
         <img  src={p1} alt="p1" className="image-listprogram"/>
         <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
+        <p>Selamatkan Anak Terlantar di Desa Rawageni</p>
         <div className="titleP-list">
                 <p className="txtValue-list">Target Donasi Tersalurkan</p>
                 <p className="txtTot-list">Rp 98.631.944</p>
         </div>
         </div>
         </div>
-
-        <div className="container-listprogram">
-        <img  src={p1} alt="p1" className="image-listprogram"/>
-        <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
-        <div className="titleP-list">
-                <p className="txtValue-list">Target Donasi Tersalurkan</p>
-                <p className="txtTot-list">Rp 98.631.944</p>
-        </div>
-        </div>
-        </div>
-
-        <div className="container-listprogram">
-        <img  src={p1} alt="p1" className="image-listprogram"/>
-        <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
-        <div className="titleP-list">
-                <p className="txtValue-list">Target Donasi Tersalurkan</p>
-                <p className="txtTot-list">Rp 98.631.944</p>
-        </div>
-        </div>
-        </div>
-
-        <div className="container-listprogram">
-        <img  src={p1} alt="p1" className="image-listprogram"/>
-        <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
-        <div className="titleP-list">
-                <p className="txtValue-list">Target Donasi Tersalurkan</p>
-                <p className="txtTot-list">Rp 98.631.944</p>
-        </div>
-        </div>
-        </div>
-
-        <div className="container-listprogram">
-        <img  src={p1} alt="p1" className="image-listprogram"/>
-        <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
-        <div className="titleP-list">
-                <p className="txtValue-list">Target Donasi Tersalurkan</p>
-                <p className="txtTot-list">Rp 98.631.944</p>
-        </div>
-        </div>
-        </div>
-
-        <div className="container-listprogram">
-        <img  src={p1} alt="p1" className="image-listprogram"/>
-        <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
-        <div className="titleP-list">
-                <p className="txtValue-list">Target Donasi Tersalurkan</p>
-                <p className="txtTot-list">Rp 98.631.944</p>
-        </div>
-        </div>
-        </div>
-
-        <div className="container-listprogram">
-        <img  src={p1} alt="p1" className="image-listprogram"/>
-        <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
-        <div className="titleP-list">
-                <p className="txtValue-list">Target Donasi Tersalurkan</p>
-                <p className="txtTot-list">Rp 98.631.944</p>
-        </div>
-        </div>
-        </div>
-
-        <div className="container-listprogram">
-        <img  src={p1} alt="p1" className="image-listprogram"/>
-        <div className ="titleP-format">
-        <a href="/detailprogram">Selamatkan Anak Terlantar di Desa Rawageni</a>
-        <div className="titleP-list">
-                <p className="txtValue-list">Target Donasi Tersalurkan</p>
-                <p className="txtTot-list">Rp 98.631.944</p>
-        </div>
-        </div>
-        </div>
-
+       
       </div>
     )
 }

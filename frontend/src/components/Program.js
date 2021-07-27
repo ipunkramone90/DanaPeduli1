@@ -37,9 +37,6 @@ function Program() {
         </div>
         </div>
       </div>
-<div>
-<a href="/program">Lihat Semua Kampanye ➜</a>
-</div>
       </div>
     )
 }

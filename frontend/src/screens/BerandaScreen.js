@@ -4,8 +4,7 @@ import FormDonasi from '../components/FormDonasi'
 import ListDonatur from '../components/ListDonatur'
 import ListMitra from '../components/ListMitra'
 import Program from '../components/Program'
-import header from '../assets/header1.svg';
-import m9 from '../assets/m9.svg';
+import header from '../assets/header.svg';
 
 function BerandaScreen() {
     return (
@@ -26,16 +25,6 @@ function BerandaScreen() {
             <div className="list-program">
               <h4>Program Danapeduli</h4>
                 <Program/>
-            </div>
-            <div className="space">
-            <div className="imagereg-container">
-              <img src={m9} alt="Image9"/>
-                <p className="imagereg-title">Yuk Jadi AgenPeduli</p>
-                <p className="imagereg-text">Salurkan kepedulian orang-orang lewat uluran tangan kamu!</p>
-                <a href="/daftaragenpeduli">Daftar Disini ➜</a>
-                </div>
-               
-               
             </div>
             <div className="space">
             <div className="list-mitra">

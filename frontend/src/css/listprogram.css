@@ -1,9 +1,10 @@
 .containerlistprogram {
-  padding: 15px 15px 2500px;
+  margin: 15px -1rem;
 }
 
 .container-listprogram {
   text-decoration: none;
+  width: 380px;
   height: 82px;
   display: flex;
   flex-direction: row;
