@@ -1,25 +1,28 @@
 .container-card2 {
   position: relative;
   text-decoration: none;
-  max-width: 380px;
+  max-width: 410px;
   width: 100%;
   margin: 0px auto;
-  top: 30px;
+  top: 60px;
   padding: 0px 16px 80px;
+  min-height: calc(100vh - 60px);
+  background-color: #f4f9ff;
 }
 
 .card-dtl {
-  margin: 0px auto;
+  margin: 0px auto 20px;
   padding-top: 5px;
   width: 320px;
-  background-color: white;
-  height: 505px;
+  background-color: #f4f9ff;
+  height: 500px;
   border-radius: 10px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  top: 150px;
 }
 
 .title-dtl {
-  background-color: white;
+  background-color: transparent;
   position: absolute;
   margin: 15px 15px 0px;
   font-style: normal;
@@ -29,7 +32,7 @@
 }
 
 .idr-dtl {
-  background-color: white;
+  background-color: transparent;
   position: absolute;
   margin: 40px 15px 0px;
   font-style: normal;
@@ -47,14 +50,14 @@
   width: 289px;
   height: 54px;
   margin: 85px 15px 0px;
-  background-color: white;
-  border: 1px solid #c6c6d4;
+  background-color: transparent;
+  border: 1px solid #8a8aa0;
   box-sizing: border-box;
   border-radius: 10px;
 }
 
 .nom1-dtl {
-  background-color: white;
+  background-color: transparent;
   position: absolute;
   text-align: center;
   width: 95px;
@@ -66,7 +69,7 @@
 }
 
 .nom2-dtl {
-  background-color: white;
+  background-color: transparent;
   position: absolute;
   text-align: center;
   width: 88px;
@@ -78,7 +81,7 @@
 }
 
 .nom3-dtl {
-  background-color: white;
+  background-color: transparent;
   position: absolute;
   text-align: center;
   width: 93px;
@@ -90,7 +93,7 @@
 }
 
 .metodP-dtl {
-  background-color: white;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -101,13 +104,13 @@
   width: 289px;
   height: 54px;
   margin: 208px 15px 0px;
-  border: 1px solid #c6c6d4;
+  border: 1px solid #8a8aa0;
   box-sizing: border-box;
   border-radius: 10px;
 }
 
 .txtName-dtl {
-  background-color: white;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -117,13 +120,13 @@
   width: 289px;
   height: 54px;
   margin: 273px 15px 0px;
-  border: 1px solid #c6c6d4;
+  border: 1px solid #8a8aa0;
   box-sizing: border-box;
   border-radius: 10px;
 }
 
 .txtEmail-dtl {
-  background-color: white;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -133,13 +136,13 @@
   width: 289px;
   height: 54px;
   margin: 338px 15px 0px;
-  border: 1px solid #c6c6d4;
+  border: 1px solid #8a8aa0;
   box-sizing: border-box;
   border-radius: 10px;
 }
 
 .identity-dtl {
-  background-color: white;
+  background-color: transparent;
   position: absolute;
   width: 206px;
   height: 16px;
@@ -190,17 +193,18 @@
 }
 
 input:checked + .slider-dtl {
-  background-color: #ecf2fa;
+  background-color: #34a898;
 }
 
 input:focus + .slider-dtl {
-  box-shadow: 0 0 1px #ecf2fa;
+  box-shadow: 0 0 1px #34a898;
 }
 
 input:checked + .slider-dtl:before {
   -webkit-transform: translateX(10px);
   -ms-transform: translateX(10px);
   transform: translateX(10px);
+  background-color: #ecf2fa;
 }
 
 /* Rounded sliders */
@@ -224,21 +228,23 @@ input:checked + .slider-dtl:before {
   margin: 10px 15px 0px;
   color: white;
   background: #e1004d;
+  border: 0px solid #e1004d;
   border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .btnShare-dtl {
-  background-color: white;
-  display: flex;
+  background-color: transparent;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px;
-  position: absolute;
   width: 66px;
   height: 46px;
   margin: 10px 239px 0px;
   border: 1px solid #e1004d;
   box-sizing: border-box;
   border-radius: 12px;
+  padding: 10px;
+  color: #e1004d;
 }

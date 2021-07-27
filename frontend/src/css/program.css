@@ -3,6 +3,13 @@
   padding-left: 15px;
 }
 
+.containerProgram a {
+  color: #e1004d;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px;
+  padding-bottom: 20px;
+}
 .container-program {
   text-decoration: none;
   height: 82px;

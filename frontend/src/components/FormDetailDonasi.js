@@ -1,8 +1,18 @@
 import React from 'react'
-import { ReactComponent as Share } from '../assets/share.svg';
 import '../css/formdetaildonasi.css'
+import * as RiIcons from "react-icons/ri";
+import { useHistory } from "react-router-dom";
 
 function FormDetailDonasi() {
+  const history = useHistory();
+
+  function handleClick() {
+    history.push("/share");
+  }
+
+  function handleClick2() {
+    history.push("/confirmation");
+  }
     return (
         <div className="card-dtl">
       <p className="title-dtl">Total Donasi / Sedekah Terkumpul</p>
@@ -65,9 +75,9 @@ function FormDetailDonasi() {
           <input type="checkbox" />
           <span class="slider round"></span>
         </label>
-        <button class="btnDonate-dtl">Donasi</button>
-        <button class="btnShare-dtl">
-            <Share className='logo-share'/>
+              <button onClick={handleClick2} class="btnDonate-dtl">Donasi</button>
+        <button onClick={handleClick}>
+            <RiIcons.RiShareLine className='btnShare-dtl'/>
         </button>
       </form>
         </div>
