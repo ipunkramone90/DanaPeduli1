@@ -26,6 +26,12 @@
   font-size: 14px;
 }
 
+.titleP-format a {
+  font-size: 14px;
+  padding: 0px;
+  text-align: left;
+}
+
 .titleP-list {
   display: grid;
   background-color: transparent;
