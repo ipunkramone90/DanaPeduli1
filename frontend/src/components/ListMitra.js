@@ -7,7 +7,6 @@ import m5 from '../assets/m5.svg';
 import m6 from '../assets/m6.svg';
 import m7 from '../assets/m7.svg';
 import m8 from '../assets/m8.svg';
-import m9 from '../assets/m9.svg';
 import '../css/listmitra.css'
 
 function ListMitra() {
@@ -41,11 +40,6 @@ function ListMitra() {
         <img src={m8} alt="Logo8"/>
         </div>
         </div>
-        <div className="row3">
-        <img src={m9} alt="Logo9"/>
-        </div>
-        
-        
         </div>
     )
 }

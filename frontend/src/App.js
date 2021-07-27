@@ -6,6 +6,7 @@ import DetailProgramScreen from './screens/DetailProgramScreen'
 import ProgramScreen from './screens/ProgramScreen'
 import RegisterScreen from './screens/RegisterScreen'
 import Share from './components/Share'
+import Confirmation from './components/Confirmation'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path='/daftaragenpeduli' component={RegisterScreen}/>
       <Route path='/detailprogram' component={DetailProgramScreen}/>
       <Route path='/share' component={Share}/>
+      <Route path='/confirmation' component={Confirmation}/>
       
     </Router>
   )

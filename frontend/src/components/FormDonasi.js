@@ -10,6 +10,10 @@ function FormDonasi() {
     history.push("/share");
   }
 
+  function handleClick2() {
+    history.push("/confirmation");
+  }
+
     return (
         <div className="card">
       <p className="title">Mulai Berdonasi</p>
@@ -76,7 +80,7 @@ function FormDonasi() {
           <input type="checkbox" />
           <span class="slider round"></span>
         </label>
-        <button class="btnDonate">Donasi</button>
+        <button onClick={handleClick2} class="btnDonate">Donasi</button>
         <button onClick={handleClick}>
             <RiIcons.RiShareLine className='btnShare'/>
         </button>
